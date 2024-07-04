@@ -1,0 +1,94 @@
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xl-3">
+                        <div class="card overflow-hidden">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="">Laporan Belum verifikasi</h6>
+                                        <h3 class="mb-2 number-font">{{ $laporanBelumDiVerifikasi ?? 0 }}</h3>
+                                        <p class="text-muted mb-0">
+                                            <span class="text-primary">
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="col col-auto">
+                                        <div
+                                            class="counter-icon bg-primary-gradient box-shadow-primary brround ms-auto">
+                                            <i class="fe fe-trending-up text-white mb-5 "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xl-3">
+                        <div class="card overflow-hidden">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="">Laporan Diacc</h6>
+                                        <h3 class="mb-2 number-font">{{ $laporanAcc ?? 0 }}</h3>
+                                        <p class="text-muted mb-0">
+                                            <span class="text-primary">
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="col col-auto">
+                                        <div
+                                            class="counter-icon bg-primary-gradient box-shadow-primary brround ms-auto">
+                                            <i class="fe fe-trending-up text-white mb-5 "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xl-3">
+                        <div class="card overflow-hidden">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="">Laporan Ditolak</h6>
+                                        <h3 class="mb-2 number-font">{{ $laporanTolak ?? 0 }}</h3>
+                                        <p class="text-muted mb-0">
+                                            <span class="text-primary">
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="col col-auto">
+                                        <div
+                                            class="counter-icon bg-primary-gradient box-shadow-primary brround ms-auto">
+                                            <i class="fe fe-trending-up text-white mb-5 "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xl-3">
+                        <div class="card overflow-hidden">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="">Total Laporan</h6>
+                                        <h3 class="mb-2 number-font">{{ $totalSemuaLaporan ?? 0 }}</h3>
+                                        <p class="text-muted mb-0">
+                                            <span class="text-primary">
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="col col-auto">
+                                        <div
+                                            class="counter-icon bg-primary-gradient box-shadow-primary brround ms-auto">
+                                            <i class="fe fe-trending-up text-white mb-5 "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
